@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dpp</title>
+</head>
+
+<body>
+    <p>
+        Remember this formula:
+    <ul style="line-height:1.4;">
+
+        <li>B for <b>Bold</b> </li>
+        <li>I for <i>Italic</i></li>
+        <li>U for <u>Underline</u></li>
+        <li> a<sup>2</sup>+b<sup>2</sup> &nbsp;&nbsp;!=&nbsp;&nbsp; H<sub>2</sub>O </li>
+    </ul>
+    </p>
+    <br>
+    <hr>
+    <table border="2">
+        <caption>Student Information</caption>
+        <tr>
+            <td rowspan="4">Info</td>
+            <td rowspan="2">Name</td>
+            <td colspan="2">Address</td>
+        </tr>
+        <tr>
+            <td>City</td>
+            <td>House</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <hr>
+    <form action="/server">
+        Feedback Form:
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name" name="name">
+        </div>
+        <div>
+            <label for="Email">Name:</label>
+            <input type="email" id="Email" placeholder="Enter Email" name="email">
+        </div>
+        <div>
+            Sex:
+            <input type="checkbox" id="male" name="Sex" value="Male">
+            <label for="male">Male</label>
+            <input type="checkbox" id="female" name="Sex" value="Female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="none" selected>Select Your Country</option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="China">China</option>
+            </select>
+        </div>
+        <div>
+            <label for="messege">messege:</label><br>
+            <textarea id="messege" type="text" name="messege" placeholder="Enter Messege Here .."></textarea>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div>
+            <input id="rate-scale" type="range" min="1" max="5" step="1" value="1" name="rate-scale"><br>
+            <label for="rate-scale">Rate with Scale</label>
+        </div>
+        <br>
+        <div>
+            Rate Us Out Of 5:<br>
+            <input type="radio" id="1" name="Rate" value="1">
+            <label for="1">1</label><br>
+            <input type="radio" id="2" name="Rate" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="3" name="Rate" value="3">
+            <label for="3">3</label><br>
+            <input type="radio" id="4" name="Rate" value="4">
+            <label for="4">4</label><br>
+            <input type="radio" id="5" name="Rate" value="5">
+            <label for="5">5</label><br>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="Yes">
+            <label for="subscribe">Subscribe?</label>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+    <div>
+        <a href="https://www.google.com">
+            <img src="google.svg" height="25px" width="25px" alt="google_logo">Google me
+        </a>
+    </div>
+</body>
+
+</html>
