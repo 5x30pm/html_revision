@@ -17,7 +17,7 @@ Each file focuses on a specific concept, making it easy to learn and revise quic
 # 📂 Project Structure
 
 The repository is organized into multiple HTML files, each covering different topics such as:
-# <a href="https://html-revision.netlify.app/" alt="html-revision" > Preview</a>
+# <a href="https://5x30pm.github.io/html_revision/" alt="html-revision" > Preview</a>
 - Basic HTML structure
 - Headings & paragraphs
 - Links and images
